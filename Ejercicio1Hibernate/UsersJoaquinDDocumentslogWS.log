@@ -1,0 +1,239 @@
+20150422163341 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422163341 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422163341 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422163341 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422163341 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422163341 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422163341 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422163341 ERROR org.hibernate.util.XMLHelper [error] (89) - Error parsing XML: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml(1) El documento no es válido: no se ha encontrado la gramática.
+20150422163341 ERROR org.hibernate.util.XMLHelper [error] (89) - Error parsing XML: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml(1) El elemento raíz del documento "hibernate-configuration", debe coincidir con la raíz DOCTYPE "null".
+20150422163546 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422163546 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422163546 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422163546 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422163546 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422163546 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422163546 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422163546 ERROR org.hibernate.util.XMLHelper [error] (89) - Error parsing XML: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml(1) El documento no es válido: no se ha encontrado la gramática.
+20150422163546 ERROR org.hibernate.util.XMLHelper [error] (89) - Error parsing XML: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml(1) El elemento raíz del documento "hibernate-configuration", debe coincidir con la raíz DOCTYPE "null".
+20150422164446 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422164446 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422164446 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422164446 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422164446 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422164446 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422164446 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422164446 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422164446 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/mapping/Ciudad.hbm.xml
+20150422164832 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422164832 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422164832 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422164832 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422164832 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422164832 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422164832 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422164832 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422164832 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/mapping/Ciudad.hbm.xml
+20150422165015 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422165016 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422165016 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422165016 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422165016 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422165016 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165016 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165016 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165016 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/mapping/Ciudad.hbm.xml
+20150422165132 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422165132 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422165132 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422165132 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422165132 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422165132 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165132 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165132 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165132 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/mapping/Ciudad.hbm.xml
+20150422165232 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422165232 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422165232 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422165232 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422165232 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422165232 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165232 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165232 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165232 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/mapping/Ciudad.hbm.xml
+20150422165424 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422165424 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422165424 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422165424 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422165424 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422165424 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165424 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165424 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165424 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/mapping/Ciudad.hbm.xml
+20150422165424 ERROR co.edu.udea.ingenieriaweb.dao.HibernateSessionFactory [getSession] (39) - Error cargando
+org.hibernate.MappingNotFoundException: resource: co/edu/udea/ingenieriaweb/mapping/Ciudad.hbm.xml not found
+	at org.hibernate.cfg.Configuration.addResource(Configuration.java:799)
+	at org.hibernate.cfg.Configuration.parseMappingElement(Configuration.java:2344)
+	at org.hibernate.cfg.Configuration.parseSessionFactory(Configuration.java:2310)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2290)
+	at org.hibernate.cfg.Configuration.doConfigure(Configuration.java:2243)
+	at org.hibernate.cfg.Configuration.configure(Configuration.java:2158)
+	at co.edu.udea.ingenieriaweb.dao.HibernateSessionFactory.getSession(HibernateSessionFactory.java:33)
+	at co.edu.udea.ingenieriaweb.dao.imp.CiudadDAOImp.obtenerCiudades(CiudadDAOImp.java:32)
+	at co.edu.udea.ingenieriaweb.dao.imp.CiudadDAOImpTest.testObtenerCiudades(CiudadDAOImpTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+20150422165513 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422165513 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422165513 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422165513 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422165513 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422165513 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165513 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165514 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165514 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/dao/mapping/Ciudad.hbm.xml
+20150422165514 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165514 INFO org.hibernate.cfg.Configuration [doConfigure] (2297) - Configured SessionFactory: null
+20150422165514 INFO org.hibernate.cfg.HbmBinder [bindRootPersistentClassCommonValues] (353) - Mapping class: co.edu.udea.ingenieriaweb.dto.Ciudad -> ciudades
+20150422165514 INFO org.hibernate.cfg.Configuration [applyHibernateValidatorLegacyConstraintsOnDDL] (1676) - Hibernate Validator not found: ignoring
+20150422165514 INFO org.hibernate.cfg.search.HibernateSearchEventListenerRegister [enableHibernateSearch] (75) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+20150422165514 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (64) - Using Hibernate built-in connection pool (not for production use!)
+20150422165514 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (65) - Hibernate connection pool size: 20
+20150422165514 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (68) - autocommit mode: false
+20150422165514 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/claseiweb
+20150422165514 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (109) - connection properties: {user=ingenieriaweb, password=****}
+20150422165514 ERROR co.edu.udea.ingenieriaweb.dao.HibernateSessionFactory [getSession] (39) - Error cargando
+org.hibernate.HibernateException: Dialect class not found: org.hibernate.dialect.MYSQLDialect
+	at org.hibernate.dialect.resolver.DialectFactory.constructDialect(DialectFactory.java:159)
+	at org.hibernate.dialect.resolver.DialectFactory.buildDialect(DialectFactory.java:99)
+	at org.hibernate.cfg.SettingsFactory.buildSettings(SettingsFactory.java:117)
+	at org.hibernate.cfg.Configuration.buildSettingsInternal(Configuration.java:2863)
+	at org.hibernate.cfg.Configuration.buildSettings(Configuration.java:2859)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:1870)
+	at co.edu.udea.ingenieriaweb.dao.HibernateSessionFactory.getSession(HibernateSessionFactory.java:34)
+	at co.edu.udea.ingenieriaweb.dao.imp.CiudadDAOImp.obtenerCiudades(CiudadDAOImp.java:32)
+	at co.edu.udea.ingenieriaweb.dao.imp.CiudadDAOImpTest.testObtenerCiudades(CiudadDAOImpTest.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.ClassNotFoundException: org.hibernate.dialect.MYSQLDialect
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at org.hibernate.util.ReflectHelper.classForName(ReflectHelper.java:192)
+	at org.hibernate.dialect.resolver.DialectFactory.constructDialect(DialectFactory.java:156)
+	... 31 more
+20150422165552 INFO org.hibernate.annotations.common.Version [<clinit>] (37) - Hibernate Commons Annotations 3.2.0.Final
+20150422165552 INFO org.hibernate.cfg.Environment [<clinit>] (603) - Hibernate 3.6.10.Final
+20150422165552 INFO org.hibernate.cfg.Environment [<clinit>] (636) - hibernate.properties not found
+20150422165552 INFO org.hibernate.cfg.Environment [buildBytecodeProvider] (814) - Bytecode provider name : javassist
+20150422165552 INFO org.hibernate.cfg.Environment [<clinit>] (695) - using JDK 1.4 java.sql.Timestamp handling
+20150422165552 INFO org.hibernate.cfg.Configuration [configure] (2156) - configuring from resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165552 INFO org.hibernate.cfg.Configuration [getConfigurationInputStream] (2175) - Configuration resource: co/edu/udea/ingenieriaweb/dao/cfg/configuration.hbm.xml
+20150422165552 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165552 INFO org.hibernate.cfg.Configuration [addResource] (789) - Reading mappings from resource : co/edu/udea/ingenieriaweb/dao/mapping/Ciudad.hbm.xml
+20150422165552 WARN org.hibernate.util.DTDEntityResolver [resolveEntity] (73) - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+20150422165552 INFO org.hibernate.cfg.Configuration [doConfigure] (2297) - Configured SessionFactory: null
+20150422165552 INFO org.hibernate.cfg.HbmBinder [bindRootPersistentClassCommonValues] (353) - Mapping class: co.edu.udea.ingenieriaweb.dto.Ciudad -> ciudades
+20150422165552 INFO org.hibernate.cfg.Configuration [applyHibernateValidatorLegacyConstraintsOnDDL] (1676) - Hibernate Validator not found: ignoring
+20150422165552 INFO org.hibernate.cfg.search.HibernateSearchEventListenerRegister [enableHibernateSearch] (75) - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+20150422165552 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (64) - Using Hibernate built-in connection pool (not for production use!)
+20150422165552 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (65) - Hibernate connection pool size: 20
+20150422165552 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (68) - autocommit mode: false
+20150422165552 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (103) - using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/claseiweb
+20150422165552 INFO org.hibernate.connection.DriverManagerConnectionProvider [configure] (109) - connection properties: {user=ingenieriaweb, password=****}
+20150422165553 INFO org.hibernate.dialect.Dialect [<init>] (136) - Using dialect: org.hibernate.dialect.MySQLDialect
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (126) - Database ->
+       name : MySQL
+    version : 5.5.32
+      major : 5
+      minor : 5
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (132) - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.22 ( Revision: ${bzr.revision-id} )
+      major : 5
+      minor : 1
+20150422165553 INFO org.hibernate.transaction.TransactionFactoryFactory [buildTransactionFactory] (62) - Using default transaction strategy (direct JDBC transactions)
+20150422165553 INFO org.hibernate.transaction.TransactionManagerLookupFactory [getTransactionManagerLookup] (83) - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (179) - Automatic flush during beforeCompletion(): disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (183) - Automatic session close at end of transaction: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (190) - JDBC batch size: 15
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (193) - JDBC batch updates for versioned data: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (198) - Scrollable result sets: enabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (206) - JDBC3 getGeneratedKeys(): enabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (214) - Connection release mode: auto
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (238) - Maximum outer join fetch depth: 2
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (241) - Default batch fetch size: 1
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (245) - Generate SQL with comments: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (249) - Order SQL updates by primary key: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (253) - Order SQL inserts for batching: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [createQueryTranslatorFactory] (431) - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+20150422165553 INFO org.hibernate.hql.ast.ASTQueryTranslatorFactory [<init>] (47) - Using ASTQueryTranslatorFactory
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (261) - Query language substitutions: {}
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (266) - JPA-QL strict compliance: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (271) - Second-level cache: enabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (275) - Query cache: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [createRegionFactory] (406) - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (285) - Optimize cache for minimal puts: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (294) - Structured second-level cache entries: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (314) - Echoing all SQL to stdout
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (323) - Statistics: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (327) - Deleted entity synthetic identifier rollback: disabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (343) - Default entity-mode: pojo
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (347) - Named query checking : enabled
+20150422165553 INFO org.hibernate.cfg.SettingsFactory [buildSettings] (351) - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+20150422165553 INFO org.hibernate.impl.SessionFactoryImpl [<init>] (202) - building session factory
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@a01e23
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@955565
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@93abcc
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [blob] overrides previous : org.hibernate.type.BlobType@195092a
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@195092a
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [clob] overrides previous : org.hibernate.type.ClobType@1c2413d
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@1c2413d
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@18c1ddd
+20150422165553 INFO org.hibernate.type.BasicTypeRegistry [register] (150) - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@be0a2b
+20150422165553 INFO org.hibernate.impl.SessionFactoryObjectFactory [addInstance] (105) - Not binding factory to JNDI, no JNDI name configured

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+	<!-- Archivo de mapeo de Hibernate para la clase Ciudad -->
+	<hibernate-mapping>
+	<!-- Indicamos donde esta la clase y a que tabla hace referencia en la Base de datos -->
+		<class name= "co.edu.udea.ingenieriaweb.dto.Ciudad" table="ciudades">
+	<!-- Indicamos que codigo es el Id de la tabla en la base de datos y lo vamos a guardar en el 
+		campo codigo de la clase Ciudad -->
+			<id name="codigo" type="java.lang.Integer">
+				<column name="codigo"/>
+				<generator class="assigned"/>
+			</id>
+	<!-- hacemos referencia a otro elemento de la clase pero que esta vez no es identificador en la 
+	tabla de la DB	 -->
+			<property name="nombre" type="java.lang.String">
+				<column name="nombre"/>
+			</property>
+			
+			<property name="codigoArea" type="java.lang.String">
+				<column name="codigoArea"/>
+			</property>
+		</class>
+	</hibernate-mapping>
