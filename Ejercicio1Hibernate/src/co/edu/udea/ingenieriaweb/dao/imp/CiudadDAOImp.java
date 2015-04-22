@@ -1,11 +1,9 @@
 package co.edu.udea.ingenieriaweb.dao.imp;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+
 import java.util.ArrayList;
 import java.util.List;
+
 
 import org.hibernate.Criteria;
 import org.hibernate.HibernateException;
@@ -55,98 +53,58 @@ public class CiudadDAOImp implements CiudadDAO{
 
 	@Override
 	public Ciudad obtenerCiudad(int codigo) throws MyException {
-		// TODO Auto-generated method stub
-		return null;
+		
+		Session session = null;
+		try{
+			
+			Ciudad ciudad = null;
+			/*Obtenemos la sesion mediante la cual nos vamos a conectar*/
+			session = HibernateSessionFactory.getInstance().getSession();
+			
+			/*Le indicamos que vamos a hacer consultas sobre la clase Ciudad*/
+			Criteria criteria = session.createCriteria(Ciudad.class);
+			
+			/*Obtenemos la lista de las Ciudades*/
+			ciudad =(Ciudad)session.get(Ciudad.class, codigo);
+			
+			return ciudad;
+			
+		/*catch para caturar algun posible Error*/	
+		}catch(HibernateException e){
+			throw new MyException(e);
+			
+		}finally{
+			/*Cerramos la sesion creada*/
+			 if (session!=null) {
+					session.close(); 	
+			}
+		}	 
 	}
 
 	@Override
 	public void insertarCiudad(Ciudad ciudad) throws MyException {
-		// TODO Auto-generated method stub
+		Session session = null;
+		 org.hibernate.Transaction tx = session.beginTransaction();
+		try{
+			
+			/*Obtenemos la sesion mediante la cual nos vamos a conectar*/
+			session = HibernateSessionFactory.getInstance().getSession();
+			// Guardo la ciudad en ka DB
+			session.save(ciudad); 
+            tx.commit(); 
+			
+		/*catch para caturar algun posible Error*/	
+		}catch(HibernateException e){
+			throw new MyException(e);
+			
+		}finally{
+			/*Cerramos la sesion creada*/
+			 if (session!=null) {
+					session.close(); 	
+			}
 		
-	}
-
-//	@Override
-//	public Ciudad obtenerCiudad(int codigo) throws MyException {
-//		// TODO Auto-generated method stub
-//		Connection conexion = null;
-//		PreparedStatement ps = null;
-//		ResultSet rs = null;
-//		String consultaSQL = "SELECT * FROM ciudades WHERE codigo=?";
-//		Ciudad ciudad=null;
-//		try{
-//			conexion = DataSource.getInstance().getConnection();
-//			ps = conexion.prepareStatement(consultaSQL);
-//			ps.setInt(1, codigo);
-//			rs = ps.executeQuery();
-//			if(rs.next()){
-//				ciudad = new Ciudad();
-//				ciudad.setCodigo(rs.getInt("codigo"));
-//				ciudad.setNombre(rs.getString("nombre"));
-//				ciudad.setCodigoArea(rs.getString("codigoArea"));
-//				
-//			}
-//			return ciudad;
-//			
-//		}catch(SQLException e){
-//			throw new MyException(e);
-//		}finally{
-//			 if (rs!=null) {
-//				try{
-//					rs.close();
-//				}catch(Exception e){
-//					System.out.println("Error cerrando la conexion");
-//				} 
-//				
-//			}
-//			 if(ps != null){
-//				 try{
-//						ps.close();
-//					}catch(Exception e){
-//						System.out.println("Error cerrando la conexion");
-//					} 
-//			 }
-//			 if(conexion != null){
-//				 try{
-//						conexion.close();
-//					}catch(Exception e){
-//						System.out.println("Error cerrando la conexion");
-//					} 
-//			 }
-//		 }
-//	}
-//
-//	@Override
-//	public void insertarCiudad(Ciudad ciudad) throws MyException {
-//		// TODO Auto-generated method stub
-//		Connection conexion = null;
-//		PreparedStatement ps = null;
-//		String consultaSQL = "INSERT INTO ciudades(codigo,nombre,codigoArea) VALUES (?,?,?)";
-//		try{
-//			conexion = DataSource.getInstance().getConnection();
-//			ps = conexion.prepareStatement(consultaSQL);
-//			ps.setInt(1, ciudad.getCodigo());
-//			ps.setString(2, ciudad.getNombre());
-//			ps.setString(3, ciudad.getCodigoArea());
-//			ps.execute();
-//		}catch(SQLException e){
-//			throw new MyException(e);
-//		}finally{
-//			 if(ps != null){
-//				 try{
-//						ps.close();
-//					}catch(Exception e){
-//						System.out.println("Error cerrando la conexion");
-//					} 
-//			 }
-//			 if(conexion != null){
-//				 try{
-//						conexion.close();
-//					}catch(Exception e){
-//						System.out.println("Error cerrando la conexion");
-//					} 
-//			 }
-//		 }
-//	}
+		}
+	}	
 
 
 

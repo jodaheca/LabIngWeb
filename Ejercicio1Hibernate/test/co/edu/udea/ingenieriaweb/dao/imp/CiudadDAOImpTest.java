@@ -25,5 +25,19 @@ public class CiudadDAOImpTest {
 			fail("Not yet implemented");
 		}
 	}
+	
+	@Test
+	public void testObtenerCiudad() {
+		Ciudad ciudad = null;
+		
+		try{
+			CiudadDAO ciudadDao = new CiudadDAOImp();
+			ciudad = ciudadDao.obtenerCiudad(1);
+			assertTrue(ciudad!=null);
+		}catch(MyException e){
+			e.printStackTrace();
+			fail("Not yet implemented");
+		}
+	}
 
 }
