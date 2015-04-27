@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 27/04/2015 05:07:28 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="co.edu.udea.ingenieriaweb.dto.Direccion" table="DIRECCIONES">
+        <composite-id name="direccionId" type="java.lang.Integer">
+            <column name="CODIGO" />
+            <generator class="assigned" />
+        </id>
+        <property name="cliente" type="java.lang.String">
+            <column name="CLIENTE" />
+        </property>
+        <property name="direccion" type="java.lang.String">
+            <column name="DIRECCION" />
+        </property>
+        <property name="preferida" type="java.lang.Integer">
+            <column name="PREFERIDA" />
+        </property>
+        <property name="telefono" type="java.lang.String">
+            <column name="TELEFONO" />
+        </property>
+        <property name="ciudad" type="java.lang.Integer">
+            <column name="CIUDAD" />
+        </property>
+    </class>
+</hibernate-mapping>

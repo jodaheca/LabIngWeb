@@ -1,0 +1,8 @@
+package co.edu.udea.ingenieriaweb.dto;
+
+public class Cliente {
+	
+	private String cedula;
+	private String nombres;
+
+}

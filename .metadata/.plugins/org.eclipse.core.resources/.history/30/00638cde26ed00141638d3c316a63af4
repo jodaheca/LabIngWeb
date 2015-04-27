@@ -1,0 +1,13 @@
+package co.edu.udea.ingenieriaweb.dto;
+
+	/**
+	 * 
+	 * @author Joaquin David Hernandez C <jdavidhc94@gmail.com>
+	 *
+	 */
+
+public class Rol {
+
+	private Integer codigo;
+	private String nombre;
+}

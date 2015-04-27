@@ -1,0 +1,44 @@
+package co.edu.udea.ingenieriaweb.dto;
+
+public class Direccion {
+	
+	private Integer codigo;
+	private String cliente;
+	private String direccion;
+	private String telefono;
+	private Integer ciudad;
+	private Integer preferida
+	
+	public Integer getCodigo() {
+		return codigo;
+	}
+	public void setCodigo(Integer codigo) {
+		this.codigo = codigo;
+	}
+	public String getCliente() {
+		return cliente;
+	}
+	public void setCliente(String cliente) {
+		this.cliente = cliente;
+	}
+	public String getDireccion() {
+		return direccion;
+	}
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+	public String getTelefono() {
+		return telefono;
+	}
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+	public Integer getCiudad() {
+		return ciudad;
+	}
+	public void setCiudad(Integer ciudad) {
+		this.ciudad = ciudad;
+	}
+
+	
+}

@@ -1,0 +1,17 @@
+package co.edu.udea.ingenieriaweb.dao.imp;
+
+import java.util.List;
+
+import co.edu.udea.ingenieriaweb.dao.UsuarioDAO;
+import co.edu.udea.ingenieriaweb.dto.Usuario;
+import co.edu.udea.ingenieriaweb.exception.MyException;
+
+public class UsuarioDAOIml implements UsuarioDAO {
+
+	@Override
+	public List<Usuario> obtenerUsuarios() throws MyException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

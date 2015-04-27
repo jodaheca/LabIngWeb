@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Ciudad"/>
 <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Ciudad"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.exception.MyException"/>
 <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Usuario"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.UsuarioDAO"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.imp.UsuarioDAOIml"/>
 </qualifiedTypeNameHistroy>

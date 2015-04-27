@@ -8,7 +8,12 @@ import org.hibernate.cfg.Configuration;
 
 import co.edu.udea.ingenieriaweb.exception.MyException;
 
-
+/**
+ * 
+ * @author Joaquin Hernandez <jdavidhc94@gmail.com>
+ * Clase que maneja la conexion con la base de datos de Hibernate
+ *
+ */
 public class HibernateSessionFactory {
 	
 	private static HibernateSessionFactory instancia = null;
