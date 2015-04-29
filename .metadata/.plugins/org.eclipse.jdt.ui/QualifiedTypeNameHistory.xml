@@ -9,7 +9,10 @@
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Usuario"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.UsuarioDAO"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.imp.UsuarioDAOIml"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.DireccionId"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.imp.UsuarioDAOImlTest"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.imp.RolDAOIml"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Rol"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.RolDAO"/>
-<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.DireccionId"/>
+<fullyQualifiedTypeName name="org.hibernate.criterion.Restrictions"/>
 </qualifiedTypeNameHistroy>

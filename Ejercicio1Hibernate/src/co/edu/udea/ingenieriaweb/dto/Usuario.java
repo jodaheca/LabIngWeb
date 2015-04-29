@@ -5,14 +5,15 @@ package co.edu.udea.ingenieriaweb.dto;
  *  @author Joaquin David Hernandez Cardenas <jdavidhc94@gmail.com>
  * DTO de la tabla Usuarios en la Base de datos
  *
- */
+ */	
 public class Usuario {
 
 		private String login;
 		private String nombres;
 		private String apellidos;
 		private String contrasena;
-		private String rol;
+		//private String rol;
+		private Rol rol;
 		
 		
 		public String getLogin() {
@@ -39,10 +40,10 @@ public class Usuario {
 		public void setContrasena(String contrasena) {
 			this.contrasena = contrasena;
 		}
-		public String getRol() {
+		public Rol getRol() {
 			return rol;
 		}
-		public void setRol(String rol) {
+		public void setRol(Rol rol) {
 			this.rol = rol;
 		}
 		

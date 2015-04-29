@@ -31,14 +31,13 @@ public class UsuarioDAOImlTest {
 		
 		try{
 			UsuarioDAO usuarioDao = new UsuarioDAOIml();
-			RolDAO managerRol = new RolDAOImp();
+			//RolDAO managerRol = new RolDAOImp();
 			usuarios = usuarioDao.obtenerUsuarios();
 			for(int i =0; i<usuarios.size(); i++){
 				Usuario usuario = usuarios.get(i);
-				Rol rol = managerRol.obtenerRol(usuario.getRol());
 				Logger  log = Logger.getLogger(this.getClass());
 				log.info("Nombre Usuario: "+ usuario.getNombres());
-				log.info("Rol Usuario: " + rol.getNombre());
+				log.info("Rol Usuario: " + usuario.getRol().getNombre());
 			}		
 			assertTrue(usuarios.size()>0);
 			

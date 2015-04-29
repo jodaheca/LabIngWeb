@@ -17,8 +17,11 @@
         <property name="contrasena" type="java.lang.String">
             <column name="CONTRASENA" />
         </property>
-        <property name="rol" type="java.lang.String">
+<!--         <property name="rol" type="java.lang.String"> -->
+<!--             <column name="ROL" /> -->
+<!--         </property> -->
+		<many-to-one name="rol" fetch="join" class="co.edu.udea.ingenieriaweb.dto.Rol" lazy="proxy">
             <column name="ROL" />
-        </property>
+        </many-to-one>
     </class>
 </hibernate-mapping>

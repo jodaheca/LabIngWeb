@@ -18,4 +18,5 @@ public interface UsuarioDAO {
 	 * @throws MyException
 	 */
 	public List<Usuario> obtenerUsuarios() throws MyException;
+	public List<Usuario> obtenerUsuariosRol(String rol) throws MyException;
 }
