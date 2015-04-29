@@ -1,0 +1,9 @@
+package co.edu.udea.ingenieriaweb.dao.imp;
+
+import co.edu.udea.ingenieriaweb.dao.RolDAO;
+
+public class RolDAOIml implements RolDAO {
+	
+	
+
+}

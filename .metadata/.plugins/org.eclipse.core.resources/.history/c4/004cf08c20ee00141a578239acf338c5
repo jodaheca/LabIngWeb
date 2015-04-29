@@ -1,0 +1,9 @@
+package co.edu.udea.ingenieriaweb.dao;
+
+import co.edu.udea.ingenieriaweb.dto.Rol;
+import co.edu.udea.ingenieriaweb.exception.MyException;
+
+public interface RolDAO {
+
+	public Rol obtenerRol(int codigo) throws MyException;
+}

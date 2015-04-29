@@ -19,5 +19,5 @@ public interface RolDAO {
 	 * @return Rol
 	 * @throws MyException
 	 */
-	public Rol obtenerRol(int codigo) throws MyException;
+	public Rol obtenerRol(String codigo) throws MyException;
 }

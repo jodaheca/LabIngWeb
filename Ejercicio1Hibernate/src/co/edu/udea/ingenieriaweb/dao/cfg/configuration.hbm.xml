@@ -32,7 +32,7 @@
 			<mapping resource="co/edu/udea/ingenieriaweb/dao/mapping/Usuario.hbm.xml"></mapping>
 			<mapping resource="co/edu/udea/ingenieriaweb/dao/mapping/Cliente.hbm.xml"></mapping>
 			<mapping resource="co/edu/udea/ingenieriaweb/dao/mapping/Rol.hbm.xml"></mapping>
-<!-- 			<mapping resource="co/edu/udea/ingenieriaweb/dao/mapping/Direccion.hbm.xml"></mapping> -->
+			<mapping resource="co/edu/udea/ingenieriaweb/dao/mapping/Direccion.hbm.xml"></mapping>
 			
 			
 			

@@ -8,7 +8,7 @@ package co.edu.udea.ingenieriaweb.dto;
 
 public class Rol {
 
-	private Integer codigo;
+	private String codigo;
 	private String nombre;
 	
 	/**
@@ -22,7 +22,7 @@ public class Rol {
 	 * Metodo que permite ingresar el codigo de un Rol
 	 * @param codigo
 	 */
-	public void setCodigo(Integer codigo) {
+	public void setCodigo(String codigo) {
 		this.codigo = codigo;
 	}
 	
@@ -30,7 +30,7 @@ public class Rol {
 	 * Metodo que permite obtener el codigo de un Rol
 	 * @return codigo
 	 */
-	public Integer getCodigo() {
+	public String getCodigo() {
 		return codigo;
 	}
 	

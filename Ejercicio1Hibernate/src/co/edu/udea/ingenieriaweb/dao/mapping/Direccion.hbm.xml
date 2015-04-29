@@ -5,7 +5,7 @@
 <hibernate-mapping>
     <class name="co.edu.udea.ingenieriaweb.dto.Direccion" table="DIRECCIONES">
     
-        <composite-id name="DireccionId" class="DireccionId" >
+        <composite-id name="DireccionId" class="co.edu.udea.ingenieriaweb.dto.DireccionId" >
         
         	<key-property name="codigo" type="java.lang.Integer">
         		<column name="CODIGO"  />

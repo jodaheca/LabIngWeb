@@ -1,0 +1,31 @@
+package co.edu.udea.ingenieriaweb.dao.imp;
+
+import static org.junit.Assert.*;
+
+import org.apache.log4j.Logger;
+import org.junit.Test;
+
+import co.edu.udea.ingenieriaweb.dao.CiudadDAO;
+import co.edu.udea.ingenieriaweb.dto.Ciudad;
+import co.edu.udea.ingenieriaweb.exception.MyException;
+
+public class RolDAOImpTest {
+
+	@Test
+	public void test() {
+		Rol rol = null;
+				
+				try{
+					CiudadDAO ciudadDao = new CiudadDAOImp();
+					ciudad = ciudadDao.obtenerCiudad(1);
+					assertTrue(ciudad!=null);
+					Logger  log = Logger.getLogger(this.getClass());
+					log.info(ciudad.getNombre());
+					log.info("Nombre de la Ciudad");
+				}catch(MyException e){
+					e.printStackTrace();
+					fail("Not yet implemented");
+				}
+	}
+
+}

@@ -9,4 +9,7 @@
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Usuario"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.UsuarioDAO"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.imp.UsuarioDAOIml"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Rol"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.RolDAO"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.DireccionId"/>
 </qualifiedTypeNameHistroy>

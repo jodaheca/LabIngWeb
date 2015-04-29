@@ -1,0 +1,25 @@
+package co.edu.udea.ingenieriaweb.dao.imp;
+
+import co.edu.udea.ingenieriaweb.dao.RolDAO;
+import co.edu.udea.ingenieriaweb.dto.Rol;
+import co.edu.udea.ingenieriaweb.exception.MyException;
+
+/**
+ * 
+ * @author Joaquin David Hernandez Cardenas <jdavidhc94@gmail.com>
+ *
+ */
+public class RolDAOIml implements RolDAO {
+
+	@Override
+	/**
+	 * 
+	 */
+	public Rol obtenerRol(int codigo) throws MyException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="RolDAOImpTest" project="Ejercicio1Hibernate" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="co.edu.udea.ingenieriaweb.dao.imp.RolDAOImpTest" time="1.608">
+    <testcase name="test" classname="co.edu.udea.ingenieriaweb.dao.imp.RolDAOImpTest" time="1.608"/>
+  </testsuite>
+</testrun>
