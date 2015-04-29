@@ -1,5 +1,11 @@
 package co.edu.udea.ingenieriaweb.dto;
 
+/**
+ * 
+ *  @author Joaquin David Hernandez Cardenas <jdavidhc94@gmail.com>
+ * DTO de la tabla Usuarios en la Base de datos
+ *
+ */
 public class Usuario {
 
 		private String login;

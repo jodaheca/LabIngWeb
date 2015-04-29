@@ -12,7 +12,7 @@ public class Rol {
 	private String nombre;
 	
 	/**
-	 * Conctructor vacio de la Clase
+	 * Constructor vacio de la Clase
 	 */
 	public Rol() {
 		

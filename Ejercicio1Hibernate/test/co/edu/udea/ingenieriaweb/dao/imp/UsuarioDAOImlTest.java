@@ -22,10 +22,14 @@ public class UsuarioDAOImlTest {
 		try{
 			UsuarioDAO usuarioDao = new UsuarioDAOIml();
 			usuarios = usuarioDao.obtenerUsuarios();
-			assertTrue(usuarios.size()>0);
+			Usuario usuario = usuarios.get(0);
 			Logger  log = Logger.getLogger(this.getClass());
 			log.info("Lista de Usuarios"+ usuarios);
+			log.info("Nombre Primer Uusario: "+ usuario.getNombres());
+			assertTrue(usuarios.size()>0);
+			
 		}catch(MyException e){
+			
 			e.printStackTrace();
 			fail("Not yet implemented");
 		}

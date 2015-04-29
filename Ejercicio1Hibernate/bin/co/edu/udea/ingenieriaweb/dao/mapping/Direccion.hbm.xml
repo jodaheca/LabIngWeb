@@ -5,21 +5,17 @@
 <hibernate-mapping>
     <class name="co.edu.udea.ingenieriaweb.dto.Direccion" table="DIRECCIONES">
     
-        <composite-id name="direccionId" class="DireccionId" >
+        <composite-id name="DireccionId" class="DireccionId" >
         
         	<key-property name="codigo" type="java.lang.Integer">
-        		<column name="CODIGO" length="12" />
+        		<column name="CODIGO"  />
         	</key-property>
         	
         	<key-property name="cliente" type="java.lang.String">
-        		<column name="CLIENTE" length="15" />
+        		<column name="CLIENTE"  />
         	</key-property>
         	
         </composite-id>
-        
-        <property name="cliente" type="java.lang.String">
-            <column name="CLIENTE" />
-        </property>
         
         <property name="direccion" type="java.lang.String">
             <column name="DIRECCION" />

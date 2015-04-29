@@ -1,6 +1,12 @@
 package co.edu.udea.ingenieriaweb.dto;
 
+/**
+ * 
+ * @author Joaquin David Hernandez Cardenas <jdavidhc94@gmail.com>
+ * DTO de la tabla Ciudades en la Base de datos
+ */
 public class Ciudad {
+	
 	private Integer codigo;
 	private String nombre;
 	private String codigoArea;

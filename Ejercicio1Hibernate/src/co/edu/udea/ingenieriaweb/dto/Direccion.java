@@ -1,10 +1,15 @@
 package co.edu.udea.ingenieriaweb.dto;
 
-import java.io.Serializable;
 
-public class Direccion implements Serializable{
+/**
+ * 
+ *  @author Joaquin David Hernandez Cardenas <jdavidhc94@gmail.com>
+ * DTO de la tabla Direcciones en la Base de datos
+ *
+ */
+public class Direccion {
 	
-	private DireccionId direccionId;
+	private DireccionId direccionId ;
 	private String direccion;
 	private String telefono;
 	private Integer ciudad;
@@ -12,6 +17,13 @@ public class Direccion implements Serializable{
 	
 	
 	
+	
+	public DireccionId getDireccionId() {
+		return direccionId;
+	}
+	public void setDireccionId(DireccionId direccionId) {
+		this.direccionId = direccionId;
+	}
 	public Integer getPreferida() {
 		return preferida;
 	}

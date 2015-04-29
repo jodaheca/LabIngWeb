@@ -13,14 +13,21 @@ import org.hibernate.Transaction;
 import co.edu.udea.ingenieriaweb.dto.Ciudad;
 import co.edu.udea.ingenieriaweb.dao.CiudadDAO;
 import co.edu.udea.ingenieriaweb.dao.HibernateSessionFactory;
-import co.edu.udea.ingenieriaweb.exception.MyException;;
+import co.edu.udea.ingenieriaweb.exception.MyException;
 
+/**
+ * Clase que implementa todos los metodos de la interfaz CiudadDAO, permite hacer operaciones
+ * CRUD de las ciudades en la DB
+ * @author Joaquin David Hernandez Cardenas <jdavidhc94@gmail.com>
+ *
+ */
 public class CiudadDAOImp implements CiudadDAO{
 
 	
 	public CiudadDAOImp(){}
 	
 	@Override
+	
 	public List<Ciudad> obtenerCiudades() throws MyException {
 		
 		List<Ciudad> resultado = new ArrayList<Ciudad>();

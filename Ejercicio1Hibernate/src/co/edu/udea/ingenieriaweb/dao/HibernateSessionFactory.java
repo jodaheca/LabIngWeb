@@ -42,7 +42,8 @@ public class HibernateSessionFactory {
 		
 		}catch (HibernateException e) {
 			log.error("Error cargando", e);
-			throw new MyException(e);
+			String mensaje ="Error cargando el archivo de configuraciones del Hibernate";
+			throw new MyException(e, mensaje);
 		}
 	}
 

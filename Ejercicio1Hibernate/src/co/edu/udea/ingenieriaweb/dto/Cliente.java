@@ -1,7 +1,11 @@
 package co.edu.udea.ingenieriaweb.dto;
 
 import java.util.Date;
-
+/**
+ * 
+ * @author Joaquin David Hernandez Cardenas <jdavidhc94@gmail.com>
+ * DTO de la tabla Clientes en la Base de datos
+ */
 public class Cliente {
 	
 	private String cedula;
