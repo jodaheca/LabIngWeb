@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/LibreriasHibernate/slf4j-log4j12-1.7.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/JoaquinD/workspace/Ejercicio1Hibernate/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/com.springsource.org.aopalliance-1.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/commons-logging.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/mail.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-aop-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-beans-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-context-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-core-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-expression-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-jdbc-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-orm-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-test-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-tx-3.2.0.RC1.jar"/>
+	<classpathentry kind="lib" path="D:/GitHub/LabIngenieriaWeb/SpringInWeb/lib/Spring/spring-web-3.2.0.RC1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

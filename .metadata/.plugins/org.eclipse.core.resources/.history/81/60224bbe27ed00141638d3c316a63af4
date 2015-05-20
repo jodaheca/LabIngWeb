@@ -1,8 +1,0 @@
-package co.edu.udea.ingenieriaweb.dto;
-
-public class Direccion {
-	
-	private Integer codigo;
-	private String Cliente;
-
-}

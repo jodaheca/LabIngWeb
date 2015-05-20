@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;co.edu.udea.ingenieriaweb.dao.mapping&apos; to &apos;SpringInWeb/src&apos;&#x0D;&#x0A;- Original project: &apos;Ejercicio1Hibernate&apos;&#x0D;&#x0A;- Destination element: &apos;SpringInWeb/src&apos;&#x0D;&#x0A;- Original element: &apos;Ejercicio1Hibernate/src/co.edu.udea.ingenieriaweb.dao.mapping&apos;" description="Copy package" destination="=SpringInWeb/src" element1="/src&lt;co.edu.udea.ingenieriaweb.dao.mapping" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1431553303551" version="1.0"/>
+</session>

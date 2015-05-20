@@ -1,6 +1,0 @@
-package co.edu.udea.ingenieriaweb.dto;
-
-public class Usuario {
-
-		private String login
-}

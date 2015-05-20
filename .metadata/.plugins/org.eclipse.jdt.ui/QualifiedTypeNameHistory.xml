@@ -2,9 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.transaction.Transaction"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Ciudad"/>
-<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.exception.MyException"/>
 <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.io.Serializable"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Usuario"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.UsuarioDAO"/>
@@ -15,4 +13,17 @@
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Rol"/>
 <fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.RolDAO"/>
 <fullyQualifiedTypeName name="org.hibernate.criterion.Restrictions"/>
+<fullyQualifiedTypeName name="org.springframework.orm.hibernate3.support.HibernateDaoSupport"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.springframework.test.context.junit4.SpringJUnit4ClassRunner"/>
+<fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.bl.ClienteBl"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.exception.MyException"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dto.Cliente"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.Override"/>
+<fullyQualifiedTypeName name="co.edu.udea.ingenieriaweb.dao.ClienteDAO"/>
 </qualifiedTypeNameHistroy>

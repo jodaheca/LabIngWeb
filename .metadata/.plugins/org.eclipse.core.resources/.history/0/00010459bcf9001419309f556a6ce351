@@ -1,0 +1,14 @@
+package co.edu.udea.ingenieriaweb.dao.imp;
+
+import co.edu.udea.ingenieriaweb.dao.ClienteDAO;
+import co.edu.udea.ingenieriaweb.dto.Cliente;
+
+public class ClienteDAOImp  implements ClienteDAO{
+
+	@Override
+	public void guardarCliente(Cliente cliente) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

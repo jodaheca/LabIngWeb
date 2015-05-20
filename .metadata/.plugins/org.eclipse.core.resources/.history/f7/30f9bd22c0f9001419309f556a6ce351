@@ -1,0 +1,17 @@
+package co.edu.udea.ingenieriaweb.bl.imp;
+
+import co.edu.udea.ingenieriaweb.bl.ClienteBl;
+import co.edu.udea.ingenieriaweb.exception.MyException;
+
+public class ClienteBLImp implements ClienteBl{
+
+	@Override
+	public void GuardarCliente(String cedula, String nombres, String apellidos,
+			String email, String usuarioCrea) throws MyException {
+		if(cedula==null|| "".equals(cedula)){
+			throw new MyException(e,"La cedula no puede ser vacia ni Nula")
+		}
+		
+	}
+
+}
