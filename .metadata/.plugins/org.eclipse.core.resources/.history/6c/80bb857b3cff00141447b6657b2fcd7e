@@ -1,0 +1,9 @@
+package co.edu.udea.ingenieriaweb.ws;
+
+public class PruebaServicio {
+	
+	public String Saludar(){
+		
+	}
+
+}

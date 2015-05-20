@@ -1,0 +1,14 @@
+package co.edu.udea.ingenieriaweb.ws;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+
+@Path("saludar")
+public class PruebaServicio {
+	
+	@GET
+	public String Saludar(){
+		return "Hola Amigo";
+	}
+
+}

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="D:\GitHub\LabIngenieriaWeb\SpringInWeb\lib\Spring" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="D:\GitHub\LabIngenieriaWeb\RestFulProject\lib\jersey-archive-1.4\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item value="false" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
